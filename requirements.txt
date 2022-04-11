@@ -1,0 +1,4 @@
+flask
+pycryptodome
+json
+requests
