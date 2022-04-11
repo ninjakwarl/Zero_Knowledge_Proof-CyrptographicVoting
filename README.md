@@ -60,12 +60,14 @@ def decrypt(sk, a, b):
 
 1. A voter can encrypt an invalid (not 0 or 1) vote, which will give him an unfair advantage.
 2. The authority can decrypt incorrectly, i.e. announce a fake result.
+![](https://raw.githubusercontent.com/ninjakwarl/Zero_Knowledge_Proof-CyrptographicVoting/main/assets/1.gif)
 
 There's also an issue with just having one "trusted" authority, which can be solved by using the threshold encryption scheme which uses n authorities instead of one. This way if at least one of the authorities is honest, the rest of them cannot misbehave. (threshold encryption is outside of the course of this project)
 
 ### Resolving the Cryptography Security with Zero-Knowledge Proofs ✅
 
 Luckily, there is a solution to both of these issues – namely, zero-knowledge proofs.
+![](https://raw.githubusercontent.com/ninjakwarl/Zero_Knowledge_Proof-CyrptographicVoting/main/assets/2.gif)
 
 > In cryptography, a **zero**-**knowledge** proof or **zero**-**knowledge** protocol is a method by which one party (the prover) can prove to another party (the verifier) that a given statement is true, without conveying any information apart from the fact that the statement is indeed true.
 
