@@ -1,4 +1,4 @@
-# Implementation of Zero Kknowledge Proofs in Cryptographic Voting 😎
+# Implementation of Zero Knowledge Proofs in Cryptographic Voting 😎
 
 Reference: [Cryptographic Voting – A Gentle Introduction](https://eprint.iacr.org/2016/765.pdf)
 
